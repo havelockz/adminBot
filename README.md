@@ -15,7 +15,7 @@ First you need to clone the repository
 
 `git clone https://github.com/ExxonRsky/adminBot`
 
-Now you have to [create a bot](https://core.telegram.org/bots#creating-a-new-bot) and paste the APIKEY inside the TOKEN variable inside config.py located in the same directory of bot.py
+Now you have to [create a bot](https://core.telegram.org/bots#creating-a-new-bot) and paste the `APIKEY` inside the `TOKEN` variable inside `config.py` located in the same directory of `bot.py`
 
 You have to create an `sqlite3` file called `buster.db` using this command
 
@@ -28,7 +28,7 @@ And finally you can run you personal istance of YATAB
 `./bot`
 
 ## Modules
-HATB offers a modular system to integrate commands and actions to the bot, if you want to create your own module check the Wiki page
+HATB offers a modular system to integrate commands and actions to the bot
 
 ## There are 2 different kinds of modules:
 
