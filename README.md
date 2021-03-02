@@ -21,7 +21,7 @@ You have to create an `sqlite3` file called `buster.db` using this command
 
 `sqlite3 busterdb < db.sql`
 
-And finally you can run you personal istance of YATAB
+And finally you can run you personal istance of `HATB`
 
 `chmod +x bot.py`
 
