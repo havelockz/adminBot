@@ -1,16 +1,16 @@
 # HATB
 havelock administator telegram bot
 
-# Overview
+## Overview
 HATB is a modular multi-group telegram administration helper
 
-# Setup
-##Dependencies
+## Setup
+### Dependencies
 HATB needs [python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) to works properly:
 
 `pip3 install python-telegram-bot`
 
-# Installation
+## Installation
 First you need to clone the repository
 
 `git clone https://github.com/ExxonRsky/adminBot`
@@ -27,15 +27,15 @@ And finally you can run you personal istance of YATAB
 
 `./bot`
 
-# Modules
+## Modules
 HATB offers a modular system to integrate commands and actions to the bot, if you want to create your own module check the Wiki page
 
-# There are 2 different kinds of modules:
+## There are 2 different kinds of modules:
 
-## Commands modules
+### Commands modules
 These modules contains only the single commands you can use with /name-of-the-command
 
-## Current command modules:
+### Current command modules:
 
 - [x] `/ban` -  ban the user that wrote the quoted message
 - [x] `/unban` - unban the user that wrote the quoted message
@@ -48,13 +48,13 @@ These modules contains only the single commands you can use with /name-of-the-co
 - [ ] `/groupinfo` - show groups info
 - [ ] `/info` - show info about the quoted user
  
-## Onjoin modules
+### Onjoin modules
 These are all the actions the bot will make every time a new user join
 
 - [x] `nobots` - if a bot not in whitelist joins the group it will be banned
 - [x] `not_ascii_name` - kick users with non-ascii char in first name
  
-## OnMessage modules
+### OnMessage modules
 These are all the actions the bot will do every time someone send a new message(it includes stickers, gifs, images, etc..)
 
 - [ ] `antiflood` - integrates an algorithm to stop flooders inside the group
