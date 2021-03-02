@@ -33,7 +33,7 @@ HATB offers a modular system to integrate commands and actions to the bot
 ## There are 2 different kinds of modules:
 
 ### Commands modules
-These modules contains only the single commands you can use with /name-of-the-command
+These modules contains only the single commands you can use with `/name-of-the-command`
 
 ### Current command modules:
 
